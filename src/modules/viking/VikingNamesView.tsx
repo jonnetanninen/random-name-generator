@@ -45,12 +45,13 @@ const VikingNamesView: React.FC<Props> = props => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
+          flexWrap: 'wrap',
         }}
       >
         <div style={controlLabel}>Generate</div>
         <input style={controlLabel} type="number" value={amount} onChange={handleAmountChange} />
         <div style={controlLabel}>of</div>
-        <div style={{ ...controlLabel, display: 'flex', alignItems: 'center' }}>
+        <div style={{ ...controlLabel, display: 'flex', alignItems: 'center'}}>
           <div className="radio" style={{ display: 'flex', alignItems: 'center' }}>
             <label style={{ display: 'flex', alignItems: 'center' }}>
               <input type="radio" value="male" checked={gender === 'male'} onChange={handleGenderChange} />
