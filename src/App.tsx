@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import VikingNamesView from "./modules/viking/VikingNamesView";
+import NameGenerator from "./views/NameGenerator";
 
 const App: React.FC = () => {
   return (
     <div className="App">
       <div>
-        <VikingNamesView/>
+        <NameGenerator/>
       </div>
     </div>
   );
