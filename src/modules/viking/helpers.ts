@@ -1,7 +1,7 @@
 import { FEMALE_NAMES, MALE_NAMES } from './constants';
 
 export const getRandomElementFromArr = (arr: any[]) => {
-  const randomIndex = Math.round(Math.random() * arr.length);
+  const randomIndex = Math.round(Math.random() * (arr.length - 1));
   return arr[randomIndex];
 };
 
