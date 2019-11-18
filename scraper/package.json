@@ -1,0 +1,9 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "node-html-parser": "^1.1.16",
+    "request": "^2.88.0"
+  }
+}
